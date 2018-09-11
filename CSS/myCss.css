@@ -140,12 +140,14 @@
     margin: 20px 25px;
 }
 
-.plan_table_right_side {
-    border-right: 1px solid #8a8484;
+.plan_table td {
     padding: 0 15px;
 }
 
-.plan_table_end_side {
+.plan_table_right_side_with_color {
+    border-right: 1px solid #8a8484;
+}
+
+.plan_table_right_side_without_color {
     border-right: 0px;
-    padding: 0 15px;
 }
