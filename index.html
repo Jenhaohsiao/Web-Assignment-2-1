@@ -9,6 +9,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/myCss.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Google icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
@@ -35,36 +39,60 @@
 
             <table class="plan_table">
                 <tr>
-                    <td class="plan_table_right_side_with_color">
+                    <td rowspan="2" class="plan_table_right_side_with_color" style="width : 22%;">
                         <h1>Essential Plus</h1>
-                        <p>View details</p>
-                    </td>
-
-                    <td class="plan_table_right_side">
-                        <p>Up to</p>
-                        <p>3 Mbps</p>
-                        <p>Download speed</p>
-                    </td>
-
-                    <td>
-                        <p>Up to</p>
-                        <p>0.68 Mbps</p>
-                        <p>Upload speed</p>
-                    </td>
-
-                    <td class="plan_table_right_side_with_color">
-                        <p>20 GB</p>
-                        <p>Monthly usage</p>
+                        <p class="plan_detail_text">View details <i class="far fa-arrow-alt-circle-right"></i></p>
 
                     </td>
 
-                    <td>
+                    <td class="plan_table_right_side" style="width : 15%;">
+
+                        <i class="material-icons plan_detail_icon md_big"> shutter_speed</i>
+
+                    </td>
+
+                    <td style="width : 15%;">
+
+                        <i class="material-icons plan_detail_icon md_big ">supervised_user_circle</i>
+
+                    </td>
+
+                    <td class="plan_table_right_side_with_color" style="width : 15%;">
+                        <i class="material-icons plan_detail_icon md_big"> dns</i>
+
+                    </td>
+
+
+                    <td rowspan="2" style="width : 33%;">
                         <p>Regular price</p>
-                        <p>$34.95/mo.</p>
-                        <button type="button">Order now</button>
+                        <p> <span class="plan_detail_price">$34</span>.95/mo. <button type="button" class="plan_detail_order_button">Order now</button></p>
+
                         <p>$59.95 one-time activation fee.</p>
                         <p>Available in select areas.</p>
 
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td class="plan_table_right_side vertical-bottom">
+
+                        <p>Up to</p>
+                        <p class="plan_detail_subtitle">3 Mbps</p>
+                        <p>Download speed</p>
+                    </td>
+
+                    <td class="vertical-bottom">
+
+                        <p>Up to</p>
+                        <p class="plan_detail_subtitle">0.68 Mbps</p>
+                        <p>Upload speed</p>
+                    </td>
+
+                    <td class="plan_table_right_side_with_color vertical-bottom">
+                        <br/>
+                        <p class="plan_detail_subtitle">20 GB</p>
+                        <p>Monthly usage</p>
                     </td>
                 </tr>
 

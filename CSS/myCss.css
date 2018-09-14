@@ -2,10 +2,12 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     background-color: #ededed;
+    font-size: 12px;
+    line-height: 50%;
 }
 
 #home_work_4_body p {
-    line-height: 80%;
+    /* line-height: 80%; */
 }
 
 .page_content_range {
@@ -39,6 +41,10 @@
 
 .vertical-middle {
     vertical-align: middle;
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
 }
 
 .float_clear {
@@ -138,6 +144,9 @@
 
 .plan_table {
     margin: 20px 25px;
+    min-width: 550px;
+    max-width: 950px;
+    width: 100%;
 }
 
 .plan_table td {
@@ -150,4 +159,42 @@
 
 .plan_table_right_side_without_color {
     border-right: 0px;
+}
+
+.plan_detail_text {
+    font-size: 11px;
+    color: #5868c0;
+    font-weight: 900;
+}
+
+.plan_detail_text:hover {
+    color: #7a82ae;
+    text-shadow: 0.1em 0.1em 0.5em #37327b;
+}
+
+.plan_detail_icon {
+    color: #5868c0;
+}
+
+.plan_detail_icon.md_big {
+    font-size: 60px;
+}
+
+.plan_detail_subtitle {
+    font-size: 20px;
+    color: #5868c0;
+}
+
+.plan_detail_price {
+    font-size: 35px;
+    color: #5868c0;
+}
+
+.plan_detail_order_button {
+    background-color: #262e5e;
+    color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    padding: 5px 30px;
 }
