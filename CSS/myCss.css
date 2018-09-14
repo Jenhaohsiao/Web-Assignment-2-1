@@ -1,9 +1,9 @@
 #home_work_4_body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 100;
     background-color: #ededed;
     font-size: 12px;
-    line-height: 50%;
+    line-height: 100%;
 }
 
 #home_work_4_body p {
@@ -11,8 +11,8 @@
 }
 
 .page_content_range {
-    min-width: 600px;
-    max-width: 1000px;
+    /* min-width: 600px; */
+    width: 1000px;
 }
 
 .float_right {
@@ -146,9 +146,9 @@
 
 .plan_table {
     margin: 20px 25px;
-    min-width: 550px;
-    max-width: 950px;
-    width: 100%;
+    /* min-width: 550px; */
+    width: 950px;
+    /* width: 100%; */
 }
 
 .plan_table td {
@@ -182,8 +182,9 @@
     color: #5868c0;
 }
 
-.plan_detail_icon.md_big {
+.material-icons.md_big {
     font-size: 60px;
+    margin: 5px;
 }
 
 .plan_detail_subtitle {
@@ -205,4 +206,21 @@
     font-size: 15px;
     padding: 5px 30px;
     margin: 0 20px;
+}
+
+#your_package {
+    background-color: #262e5e;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.circle_frame {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.package_subtitle_text {
+    font-size: 20px;
 }
